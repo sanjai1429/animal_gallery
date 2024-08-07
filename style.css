@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    flex-basis:25%;
+
+    
+}
+.m{
+    width: 250px;
+    color: white;
+    margin: 10px;
+    flex-basis: 20%;
+    flex-grow: 1;
+   
+   
+}
+.m:hover{
+    color: black;
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+    
+}
